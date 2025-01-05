@@ -1,0 +1,26 @@
+Monday
+
+Tuesday
+8 9 exam1
+
+Wednesday
+
+Thursday
+8 11 examxx
+12 15 exam5
+15 17 exam6
+17 20 exam7
+
+Friday
+8 11 examyx
+
+Saturday
+13 14 exam2
+13 14 exam3
+
+Sunday
+8 11 exam10
+12 15 exam11
+15 17 exam12
+17 20 exam13
+
