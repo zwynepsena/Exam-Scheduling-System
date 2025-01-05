@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '../bin/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z10CreateExamiiPKc, symObjAddr: 0x0, symBinAddr: 0x100002704, symSize: 0x98 }
+  - { offsetInCU: 0x98, offset: 0x98, size: 0x8, addend: 0x0, symName: __Z10CreateExamiiPKc, symObjAddr: 0x0, symBinAddr: 0x100002704, symSize: 0x98 }
+  - { offsetInCU: 0xEE, offset: 0xEE, size: 0x8, addend: 0x0, symName: __Z9PrintExamP4Exam, symObjAddr: 0x98, symBinAddr: 0x10000279C, symSize: 0x80 }
+  - { offsetInCU: 0x26, offset: 0x141, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000281C, symSize: 0x160 }
+  - { offsetInCU: 0x46, offset: 0x161, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000281C, symSize: 0x160 }
+  - { offsetInCU: 0x26, offset: 0x241, size: 0x8, addend: 0x0, symName: __Z14CreateSchedulev, symObjAddr: 0x0, symBinAddr: 0x10000297C, symSize: 0x170 }
+  - { offsetInCU: 0x68, offset: 0x283, size: 0x8, addend: 0x0, symName: __Z14CreateSchedulev, symObjAddr: 0x0, symBinAddr: 0x10000297C, symSize: 0x170 }
+  - { offsetInCU: 0xF7, offset: 0x312, size: 0x8, addend: 0x0, symName: __Z17AddExamToScheduleP8SchedulePKciiS2_, symObjAddr: 0x170, symBinAddr: 0x100002AEC, symSize: 0x4C0 }
+  - { offsetInCU: 0x1E9, offset: 0x404, size: 0x8, addend: 0x0, symName: __Z22RemoveExamFromScheduleP8SchedulePKci, symObjAddr: 0x630, symBinAddr: 0x100002FAC, symSize: 0x130 }
+  - { offsetInCU: 0x25B, offset: 0x476, size: 0x8, addend: 0x0, symName: __Z10UpdateExamP8SchedulePKciS2_ii, symObjAddr: 0x760, symBinAddr: 0x1000030DC, symSize: 0x324 }
+  - { offsetInCU: 0x34B, offset: 0x566, size: 0x8, addend: 0x0, symName: __Z8ClearDayP8SchedulePKc, symObjAddr: 0xA84, symBinAddr: 0x100003400, symSize: 0x32C }
+  - { offsetInCU: 0x43C, offset: 0x657, size: 0x8, addend: 0x0, symName: __Z14DeleteScheduleP8Schedule, symObjAddr: 0xDB0, symBinAddr: 0x10000372C, symSize: 0x13C }
+  - { offsetInCU: 0x4B6, offset: 0x6D1, size: 0x8, addend: 0x0, symName: __Z20ReadScheduleFromFileP8SchedulePKc, symObjAddr: 0xEEC, symBinAddr: 0x100003868, symSize: 0x214 }
+  - { offsetInCU: 0x5AD, offset: 0x7C8, size: 0x8, addend: 0x0, symName: __Z19WriteScheduleToFileP8SchedulePKc, symObjAddr: 0x1100, symBinAddr: 0x100003A7C, symSize: 0x184 }
+...
